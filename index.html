@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
+    <!-- cdn font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- titulo -->
+    <title>alejanpublic - Portafolio</title>
+    <!-- icono favicon -->
+    <link rel="icon" type="image/x-icon" href="icon/code-solid.svg">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="alejanpublic-dev" />
+    <meta property="og:type" content="Portafolio" />
+    <meta property="og:url" content="https://alejanpublic.github.io/Portafolio-Beta/" />
+    <meta property="og:image" content="img/img-graph.jpg" />
+    <meta property="og:description" content="Portafolio - alejanpublic" />
+    <!--  -->
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>MG</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionando" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi">SOBRE MI</a></li>
+                            <li><a href="#servicios">CONOCIMIENTOS</a></li>
+                            <li><a href="#portafolio">PROYECTOS</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive -->
+                    <div id="icon-nav" onclick="responsiveMenu()" class="blanco">
+                        <!-- <i class="fa-solid fa-bars"></i> --> <!--icon menu responsive--> 
+                    </div>
+
+                    <!-- Iconos de las redes sociales -->
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/alejanpublic-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Manuel Garcia</span>, Soporte Técnico <span>|</span> Help Desk</h2>
+                <!--<p class="descripcion">Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Nesciunt illo optio dolorum beatae veniam 
+                    repudiandae delectus, perspiciatis nihil deleniti quisquam 
+                    laboriosam? Eos nulla ipsum deserunt laborum, hic molestiae blanditiis, 
+                    similique ut assumenda modi possimus non dolor ad tempore totam. 
+                    Error enim ex atque omnis minus accusantium culpa impedit 
+                    corporis repellendus.</p>
+                    <a href="#portafolio">Ir a Portafolio</a> -->
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Seccion Sobre MI  -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/img.png" alt="Manuel">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Manuel Garcia</span></h2>
+            <h3>Soporte Técnico | Help Desk</h3>
+
+            <p>Desde muy joven, mi fascinación por el mundo de la computación ha sido el motor que impulsa mi curiosidad y creatividad. La posibilidad de explorar, entender y manipular el universo digital siempre ha despertado en mí una chispa de emoción; cada línea de código escrita es un paso hacia la creación de algo nuevo y significativo.</p>
+
+            <p>En el futuro, veo mi trayectoria en la computación como un viaje continuo de aprendizaje y crecimiento. Estoy ansioso por explorar nuevas tecnologías, enfrentar desafíos profesionales. Cuento con conocimientos en Python, Linux y Windows, así como en el manejo de comandos en entornos diversos. Mi experiencia con máquinas virtuales, redes y SQL, me proporciona una base sólida para abordar los desafíos laborales y poder seguir estudiando hasta lograr convertirme en un experto en Seguridad Informática.</p>
+
+            <p>En resumen, mi pasión por la computación no es solo una elección académica, sino un estilo de vida que abrazo con entusiasmo. Cada línea de código que escribo, cada problema que resuelvo y cada nueva tecnología que aprendo son hitos en mi viaje</p>
+
+            <a href="./cv-pdf/CV Manuel Garcia SP.pdf" target="_blank  ">Descargar CV</a>
+            
+        </div>
+
+        
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Mis Conocimientos</h3>
+        
+        <!-- Servicios Windows -->
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-windows"></i></span>
+                <h4>Windows</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Office</li>
+                    <li>PowerShell</li>
+                    <li>Defender</li>
+                </ul>
+                <p>Tecnologías de servicios en la nube y Microsoft Azure, 
+                operar con los distintos software, plataformas e infraestructuras.</p>
+            </div>
+            <!-- aca divide servicios Linux-->
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-linux"></i></span>
+                <h4>Linux</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bash</li>
+                    <li>Shell</li>
+                    <li>Distros</li>
+                </ul>
+                <p>Distros: Ubuntu, Debian, Red Hat, Kali Linux, Conceptos de Linux On-Premise,
+                    Despliegue de Linux en la Nube, Gestión de archivos y directorios,
+                    Configuración de la shell bash.</p>
+            </div>
+            <!-- aca divide servicios REdes-->
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-network-wired"></i></span>
+                <h4>Networking</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>TCP/IP</li>
+                    <li>DNS</li>
+                    <li>Modelo OSI</li>
+                </ul>
+                <p>Configuracion de redes, Manejo de herramientas para resolver 
+                    problema de conectividad.</p>
+            </div>
+        </div>
+        <!-- aca divide la fila  Python-->
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-python"></i></span>
+                <h4>Python</h4>
+                <hr>
+                <ul class="servicios-tag">
+                  <!--  <li>Web</li>
+                    <li>Graphic</li>
+                    <li>seo</li> -->
+                </ul>
+                <p>Fundamentos de la programación en Python, Usos de una terminal o línea de comandos,
+                    Tipos de datos y operaciones, Manejo de bucles repetitivos, Sentencias Condicionales,
+                    Desarrollar aplicaciones de consola y escritorio, Implementación de funciones,
+                    Manejo de librerías.</p>
+            </div>
+            <!-- aca divide servicios SQL-->
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>SQL</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Xampp</li>
+                    <li>Workbench</li>
+                    <li>HeidiSql</li>
+                </ul>
+                <p>Fundamentos de las Bases de Datos, Instalación y utilización de MySQL, 
+                    Lenguaje SQL, Estructuras de consulta, Operadores, cláusulas y sentencias,
+                    Manipulación de datos, Registros y agrupamientos,                    
+                    Construcción de un modelo de Base de Datos, Tópicos avanzados, 
+                    Integridad referencial.</p>
+            </div>
+            <!-- aca divide servicios  front-end-->
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Front-End</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p>Fundamentos de HTML, Utilización y aplicación de CSS,                 
+                    Propiedades, atributos y tipografías,                    
+                    Utilización de vínculos e imágenes,                    
+                    Desarrollo de formularios básicos,                    
+                    Tablas, frames y videos,                    
+                    Publicación de una página web,                    
+                    Protocolo de transferencia de archivos.</p>
+            </div>
+        </div>
+        <!-- termina fila  -->
+    </section>
+
+    <!-- SECCION SKILL HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>Habilidades Blandas</h3>
+        
+        <!-- comunicacion -->
+        <div class="skill">
+            <div class="info">
+                <p><span class="Lista"></span>Comunicación</p>
+                <span class="porcentaje">75%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <!-- Trabajo en eqipo -->
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="Lista"></span>Trabajo en equipo</p>
+                <span class="porcentaje">65%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class=""></div>
+            </div>
+        </div>
+
+        <!-- liderazgo -->
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="Lista"></span>Liderazgo</p>
+                <span class="porcentaje">55%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class=""></div>
+            </div>
+        </div>
+
+        <!-- ganas de aprender -->
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="Lista"></span>Ganas de seguir aprendiendo</p>
+                <span class="porcentaje">100%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" class=""></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- SECCION PROTAFOLIO -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">Proyectos</h3>
+        <div class="fila">
+            <!-- proyecto 1 -->
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://alejanpublic-dev.github.io/TechNews-Proyect/" target="__blank"><img src="img/Diapositiva1.JPG" alt="GitHub"></a>
+                <div class="info">
+                    <h4>TechNews-Proyect - WebSiteNews</h4>
+                    <p>Front-End</p>
+                </div>
+            </div>
+
+            <!-- proyecto 2 -->
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://alejanpublic-dev.github.io/mi-protafolio/" target="__blank"><img src="img/Diapositiva2.JPG" alt="GitHub"></a>
+                <div class="info">
+                    <h4>WebSite-Primer-Portafolio</h4>
+                    <p>Front-End</p>
+                </div>
+            </div>
+
+            <!-- proyecto 3 -->
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://alejanpublic-dev.github.io/Portafolio-2.0/" target="__blank"><img src="img/Diapositiva3.JPG" alt="GitHub"></a>
+                <div class="info">
+                    <h4>WebSite-Segundo-Portafolio</h4>
+                    <p>Front-End</p>
+                </div>
+            </div>
+        </div>
+            <!-- proyecto 4 -->
+        <!--
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            -->
+
+            <!-- proyecto 5 -->
+            <!--
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            -->
+            <!-- proyecto 6 -->
+            <!--
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        -->
+            <!-- proyecto 7 -->
+            <!--
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            -->
+            <!-- proyecto 8 -->
+            <!--
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        -->
+
+            <!-- proyecto 9  -->
+            <!--
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        -->
+    
+            <!-- termina proyectos  -->
+        
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <p>Edicion Beta 2.0</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/alejanpublic-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/alejanpublic-dev" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- js -->
+    <script src="javscript/main.js"></script>
+</body>
+</html>
