@@ -336,25 +336,26 @@ html{
 
 /* Este estilo se aplica luego mediante js para lograr la animacion de la barra */
 /*html*/
+/* comunicacion */
 .contenedor-skills .skill .barra .barra-progreso1{
     background-color: #fff;
-    width: 75%;
+    width: 92%;
     height: 6px;
     animation: progreso1 2% forwards;
 }
 
-/* js */
+/* trabajo en equipo */
 .contenedor-skills .skill .barra .barra-progreso2{
     background-color: #fff;
-    width: 65%;
+    width: 85%;
     height: 6px;
     animation: progreso2 2% forwards;
 }
 
-/* base de dato*/
+/* Liderazgo */
 .contenedor-skills .skill .barra .barra-progreso3{
     background-color: #fff;
-    width: 55%;
+    width: 65%;
     height: 6px;
     animation: progreso3 2% forwards;
 }
